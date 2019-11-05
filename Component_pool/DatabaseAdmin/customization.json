@@ -1,5 +1,5 @@
 { 
    "CustomizationPoints": ["dbconfig"],
    "PointBracketsLans": ["java"],
-   "IDs": ["InventaryRepositoryImpl-Control"]
+   "IDs": ["application-Control"]
 }

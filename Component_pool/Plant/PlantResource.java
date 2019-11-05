@@ -15,6 +15,17 @@ public class PlantResource {
     private IPlantService plantService;
 
 
-	/*B-plant*/
-	/*E-plant*/
+	@GetMapping(value = "/plant")
+    public String createPage() {
+
+        return "plant";
+    }
+
+    @GetMapping(value = "/plants")
+    public List<Plant> getPlants() {
+
+        List<Plant> plants = plantService.findAll();
+
+        return plants;
+    }
 }

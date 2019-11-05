@@ -15,10 +15,7 @@ public class PlantResource {
     private IPlantService plantService;
 
 
-	/*B-plant*/
-
-/*Code replaced by: Plant-AlterPlantResource*/
-@GetMapping(value = "/plant")
+	@GetMapping(value = "/plant")
     public String createPage() {
 
         return "plant";
@@ -31,6 +28,4 @@ public class PlantResource {
 
         return plants;
     }
-/*Code replaced by: Plant-AlterPlantResource*/
-/*E-plant*/
 }

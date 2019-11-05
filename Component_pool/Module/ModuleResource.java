@@ -15,5 +15,17 @@ public class ModuleResource {
     @Autowired
     private IModuleService moduleService;
 
-	/*B-module*/
+	@GetMapping(value = "/module")
+    public String createPage() {
+
+        return "module";
+    }
+
+    @GetMapping(value = "/modules")
+    public List<Module> getModules() {
+
+        List<Module> modules = moduleService.findAll();
+
+        return modules;
+    }
 }

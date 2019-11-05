@@ -22,6 +22,10 @@ public class ReporteResource {
     @Autowired
     private InventaryRepository inventaryRepository;
 
-	/*B-report*/
-    /*E-report*/
+	@RequestMapping("/reporte")
+    public String reporte(ModelMap modelMap) {
+        List<Inventary> reportList = inventaryRepository.findAll();
+        modelMap.addAttribute("reportList", reportList);
+        return "report";
+    }
 }

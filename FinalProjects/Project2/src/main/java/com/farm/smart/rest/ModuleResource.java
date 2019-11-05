@@ -15,10 +15,7 @@ public class ModuleResource {
     @Autowired
     private IModuleService moduleService;
 
-    /*B-abc*/
-
-/*Code replaced by: Module-AlterModuleResource*/
-@GetMapping(value = "/module")
+	@GetMapping(value = "/module")
     public String createPage() {
 
         return "module";
@@ -31,6 +28,4 @@ public class ModuleResource {
 
         return modules;
     }
-/*Code replaced by: Module-AlterModuleResource*/
-/*E-abc*/
 }
