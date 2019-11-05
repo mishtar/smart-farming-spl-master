@@ -10,12 +10,10 @@ Para instalar y ejecutar seguir los siguientes pasos:
 - Ejecutar desde el archivo FarmStartApplication (Si hay problemas del IDE para detectar el main ir a RunConfigurations y cambiar farm.main por main en el classpath).
 - Ejecutar el proyecto con Apache Tomcat, por el puerto 8080.
 
-###Autores
+### Autores
 
 Desarrollado por:
 - Edwin Gomez
 - Wilmer Renteria
 - Deyrson Orrego
 - Sebastián Arboleda
-
-###End
