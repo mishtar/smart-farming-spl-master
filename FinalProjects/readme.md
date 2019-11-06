@@ -7,7 +7,7 @@ Para instalar y ejecutar seguir los siguientes pasos:
 - Restaurar todas las dependencias en el menú contextual de Gradle.
 - Ir a cualquiera de los proyectos derivados, tomar la carpeta src y reemplazar en el explorador, en la misma ruta del source (src) del proyecto (se recomienda desde explorador de windows ya que IntelliJ IDEA automáticamente detecta los cambios).
 - Compilar el proyecto.
-- Ejecutar desde el archivo FarmStartApplication (Si hay problemas del IDE para detectar el main ir a RunConfigurations y cambiar farm.main por main en el classpath).
+- Ejecutar desde el archivo FarmStartApplication (escogiendo el farm.main como initial classPath dentro del RunConfiguration).
 - Ejecutar el proyecto con Apache Tomcat, por el puerto 8080.
 
 ### Autores
