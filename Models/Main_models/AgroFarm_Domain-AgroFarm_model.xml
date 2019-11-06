@@ -17,9 +17,9 @@
         <mxGeometry relative="1" as="geometry"/>
       </mxCell>
     </rel_concrete_root>
-    <concrete label="Usuario y Clave" type="concrete" selected="true" id="6">
+    <concrete label="Usuario y Clave" type="concrete" selected="false" id="6">
       <mxCell style="" parent="feature" vertex="1">
-        <mxGeometry x="20" y="160" width="100" height="35" as="geometry"/>
+        <mxGeometry x="40" y="210" width="100" height="35" as="geometry"/>
       </mxCell>
     </concrete>
     <concrete label="Redes sociales" type="concrete" selected="true" id="8">
@@ -37,17 +37,17 @@
         <mxGeometry relative="1" as="geometry"/>
       </mxCell>
     </rel_abstract_root>
-    <concrete label="Excel" type="concrete" selected="true" id="27">
+    <concrete label="Excel" type="concrete" selected="false" id="27">
       <mxCell style="" parent="feature" vertex="1">
         <mxGeometry x="340" y="260" width="100" height="35" as="geometry"/>
       </mxCell>
     </concrete>
-    <concrete label="CSV" type="concrete" selected="true" id="29">
+    <concrete label="CSV" type="concrete" selected="false" id="29">
       <mxCell style="" parent="feature" vertex="1">
         <mxGeometry x="490" y="260" width="100" height="35" as="geometry"/>
       </mxCell>
     </concrete>
-    <concrete label="Temperatura" type="concrete" selected="true" id="43">
+    <concrete label="Temperatura" type="concrete" selected="false" id="43">
       <mxCell style="" parent="feature" vertex="1">
         <mxGeometry x="750" y="130" width="100" height="35" as="geometry"/>
       </mxCell>
@@ -57,19 +57,19 @@
         <mxGeometry relative="1" as="geometry"/>
       </mxCell>
     </rel_concrete_abstract>
-    <concrete label="Productividad" type="concrete" selected="true" id="47">
+    <concrete label="Productividad" type="concrete" selected="false" id="47">
       <mxCell style="" parent="feature" vertex="1">
         <mxGeometry x="604.5" y="322" width="100" height="35" as="geometry"/>
       </mxCell>
     </concrete>
-    <concrete label="Produccion" type="concrete" selected="true" id="49">
+    <concrete label="Produccion" type="concrete" selected="false" id="49">
       <mxCell style="" parent="feature" vertex="1">
         <mxGeometry x="728" y="322" width="100" height="35" as="geometry"/>
       </mxCell>
     </concrete>
     <abstract label="AgroItems" type="abstract" id="62">
       <mxCell style="strokeWidth=2" parent="feature" vertex="1">
-        <mxGeometry x="180" y="140" width="100" height="35" as="geometry"/>
+        <mxGeometry x="160" y="240" width="100" height="35" as="geometry"/>
       </mxCell>
     </abstract>
     <rel_abstract_root type="relation" relType="mandatory" id="63">
@@ -77,14 +77,14 @@
         <mxGeometry relative="1" as="geometry"/>
       </mxCell>
     </rel_abstract_root>
-    <concrete label="Planta" type="concrete" selected="true" id="64">
+    <concrete label="Planta" type="concrete" selected="false" id="64">
       <mxCell style="" parent="feature" vertex="1">
-        <mxGeometry x="80" y="220" width="100" height="35" as="geometry"/>
+        <mxGeometry x="60" y="320" width="100" height="35" as="geometry"/>
       </mxCell>
     </concrete>
-    <concrete label="Modulo" type="concrete" selected="true" id="66">
+    <concrete label="Modulo" type="concrete" selected="false" id="66">
       <mxCell style="" parent="feature" vertex="1">
-        <mxGeometry x="210" y="230" width="100" height="35" as="geometry"/>
+        <mxGeometry x="190" y="330" width="100" height="35" as="geometry"/>
       </mxCell>
     </concrete>
     <rel_concrete_abstract type="relation" relType="mandatory" id="67">
@@ -97,12 +97,12 @@
         <mxGeometry relative="1" as="geometry"/>
       </mxCell>
     </rel_concrete_abstract>
-    <concrete label="PDF" type="concrete" selected="true" id="126">
+    <concrete label="PDF" type="concrete" selected="false" id="126">
       <mxCell style="" parent="feature" vertex="1">
         <mxGeometry x="420" y="310" width="100" height="35" as="geometry"/>
       </mxCell>
     </concrete>
-    <concrete label="VistasBásicas" type="concrete" selected="true" id="157">
+    <concrete label="VistasBásicas" type="concrete" selected="false" id="157">
       <mxCell style="" parent="feature" vertex="1">
         <mxGeometry x="690" y="10" width="100" height="35" as="geometry"/>
       </mxCell>
@@ -112,17 +112,17 @@
         <mxGeometry relative="1" as="geometry"/>
       </mxCell>
     </rel_concrete_root>
-    <concrete label="Reportes" type="concrete" selected="true" id="256">
+    <concrete label="Reportes" type="concrete" selected="false" id="256">
       <mxCell style="" parent="feature" vertex="1">
         <mxGeometry x="290" y="180" width="100" height="35" as="geometry"/>
       </mxCell>
     </concrete>
     <concrete label="Login" type="concrete" selected="true" id="267">
       <mxCell style="" parent="feature" vertex="1">
-        <mxGeometry x="10" y="120" width="100" height="35" as="geometry"/>
+        <mxGeometry x="20" y="150" width="100" height="35" as="geometry"/>
       </mxCell>
     </concrete>
-    <concrete label="GestionGranja" type="concrete" selected="true" id="271">
+    <concrete label="GestionGranja" type="concrete" selected="false" id="271">
       <mxCell style="" parent="feature" vertex="1">
         <mxGeometry x="760" y="260" width="100" height="35" as="geometry"/>
       </mxCell>
@@ -207,7 +207,7 @@
         <mxGeometry relative="1" as="geometry"/>
       </mxCell>
     </rel_concrete_abstract>
-    <mxCell id="component" parent="0"/>
+    <mxCell id="component" parent="0" visible="0"/>
     <component label="Index" type="component" id="73">
       <mxCell style="shape=component" parent="component" vertex="1">
         <mxGeometry x="40" y="10" width="100" height="40" as="geometry"/>
@@ -663,53 +663,53 @@
         <mxGeometry relative="1" as="geometry"/>
       </mxCell>
     </rel_file_component>
-    <mxCell id="binding_feature_component" parent="0" visible="0"/>
+    <mxCell id="binding_feature_component" parent="0"/>
     <concrete label="Administracion base de datos" type="concrete" selected="true" id="clon2">
       <mxCell style="fillColor=#DCDCDC;" parent="binding_feature_component" vertex="1">
         <mxGeometry x="190" y="100" width="100" height="35" as="geometry"/>
       </mxCell>
     </concrete>
-    <concrete label="Usuario y Clave" type="concrete" selected="true" id="clon6">
+    <concrete label="Usuario y Clave" type="concrete" selected="false" id="clon6">
       <mxCell style="fillColor=#DCDCDC;" parent="binding_feature_component" vertex="1">
-        <mxGeometry x="730" y="310" width="100" height="35" as="geometry"/>
+        <mxGeometry x="490" y="420" width="100" height="35" as="geometry"/>
       </mxCell>
     </concrete>
     <concrete label="Redes sociales" type="concrete" selected="true" id="clon8">
       <mxCell style="fillColor=#DCDCDC;" parent="binding_feature_component" vertex="1">
-        <mxGeometry x="500" y="420" width="100" height="35" as="geometry"/>
+        <mxGeometry x="630" y="380" width="100" height="35" as="geometry"/>
       </mxCell>
     </concrete>
-    <concrete label="Excel" type="concrete" selected="true" id="clon27">
+    <concrete label="Excel" type="concrete" selected="false" id="clon27">
       <mxCell style="fillColor=#DCDCDC;" parent="binding_feature_component" vertex="1">
         <mxGeometry x="200" y="470" width="100" height="35" as="geometry"/>
       </mxCell>
     </concrete>
-    <concrete label="CSV" type="concrete" selected="true" id="clon29">
+    <concrete label="CSV" type="concrete" selected="false" id="clon29">
       <mxCell style="fillColor=#DCDCDC;" parent="binding_feature_component" vertex="1">
         <mxGeometry x="200" y="320" width="100" height="35" as="geometry"/>
       </mxCell>
     </concrete>
-    <concrete label="Temperatura" type="concrete" selected="true" id="clon43">
+    <concrete label="Temperatura" type="concrete" selected="false" id="clon43">
       <mxCell style="fillColor=#DCDCDC;" parent="binding_feature_component" vertex="1">
         <mxGeometry x="510" y="180" width="100" height="35" as="geometry"/>
       </mxCell>
     </concrete>
-    <concrete label="Productividad" type="concrete" selected="true" id="clon47">
+    <concrete label="Productividad" type="concrete" selected="false" id="clon47">
       <mxCell style="fillColor=#DCDCDC;" parent="binding_feature_component" vertex="1">
         <mxGeometry x="510" y="130" width="100" height="35" as="geometry"/>
       </mxCell>
     </concrete>
-    <concrete label="Produccion" type="concrete" selected="true" id="clon49">
+    <concrete label="Produccion" type="concrete" selected="false" id="clon49">
       <mxCell style="fillColor=#DCDCDC;" parent="binding_feature_component" vertex="1">
         <mxGeometry x="510" y="80" width="100" height="35" as="geometry"/>
       </mxCell>
     </concrete>
-    <concrete label="Planta" type="concrete" selected="true" id="clon64">
+    <concrete label="Planta" type="concrete" selected="false" id="clon64">
       <mxCell style="fillColor=#DCDCDC;" parent="binding_feature_component" vertex="1">
         <mxGeometry x="510" y="250" width="100" height="35" as="geometry"/>
       </mxCell>
     </concrete>
-    <concrete label="Modulo" type="concrete" selected="true" id="clon66">
+    <concrete label="Modulo" type="concrete" selected="false" id="clon66">
       <mxCell style="fillColor=#DCDCDC;" parent="binding_feature_component" vertex="1">
         <mxGeometry x="180" y="250" width="100" height="35" as="geometry"/>
       </mxCell>
@@ -724,7 +724,7 @@
         <mxGeometry x="20" y="100" width="100" height="40" as="geometry"/>
       </mxCell>
     </component>
-    <concrete label="PDF" type="concrete" selected="true" id="clon126">
+    <concrete label="PDF" type="concrete" selected="false" id="clon126">
       <mxCell style="fillColor=#DCDCDC;" parent="binding_feature_component" vertex="1">
         <mxGeometry x="190" y="400" width="100" height="35" as="geometry"/>
       </mxCell>
@@ -734,7 +734,7 @@
         <mxGeometry x="630" y="120" width="100" height="40" as="geometry"/>
       </mxCell>
     </component>
-    <concrete label="VistasBásicas" type="concrete" selected="true" id="clon157">
+    <concrete label="VistasBásicas" type="concrete" selected="false" id="clon157">
       <mxCell style="fillColor=#DCDCDC;" parent="binding_feature_component" vertex="1">
         <mxGeometry x="210" y="20" width="100" height="35" as="geometry"/>
       </mxCell>
@@ -824,7 +824,7 @@
         <mxGeometry relative="1" as="geometry"/>
       </mxCell>
     </rel_concrete_component>
-    <concrete label="Reportes" type="concrete" selected="true" id="clon256">
+    <concrete label="Reportes" type="concrete" selected="false" id="clon256">
       <mxCell style="fillColor=#DCDCDC;" parent="binding_feature_component" vertex="1">
         <mxGeometry x="190" y="170" width="100" height="35" as="geometry"/>
       </mxCell>
@@ -864,7 +864,7 @@
         <mxGeometry x="480" y="360" width="100" height="35" as="geometry"/>
       </mxCell>
     </concrete>
-    <concrete label="GestionGranja" type="concrete" selected="true" id="clon271">
+    <concrete label="GestionGranja" type="concrete" selected="false" id="clon271">
       <mxCell style="fillColor=#DCDCDC;" parent="binding_feature_component" vertex="1">
         <mxGeometry x="680" y="220" width="100" height="35" as="geometry"/>
       </mxCell>
@@ -879,13 +879,13 @@
         <mxGeometry relative="1" as="geometry"/>
       </mxCell>
     </rel_concrete_component>
-    <rel_concrete_component type="relation" id="277">
-      <mxCell parent="binding_feature_component" source="clon6" target="clon221" edge="1">
+    <rel_concrete_component type="relation" id="327">
+      <mxCell edge="1" parent="binding_feature_component" source="clon6" target="clon224">
         <mxGeometry relative="1" as="geometry"/>
       </mxCell>
     </rel_concrete_component>
-    <rel_concrete_component type="relation" id="278">
-      <mxCell parent="binding_feature_component" source="clon8" target="clon224" edge="1">
+    <rel_concrete_component type="relation" id="328">
+      <mxCell edge="1" parent="binding_feature_component" source="clon8" target="clon221">
         <mxGeometry relative="1" as="geometry"/>
       </mxCell>
     </rel_concrete_component>
